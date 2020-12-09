@@ -1,3 +1,6 @@
+
+// Automatic Semi-colon insertion
+
 // in this example, I learned the dangers of syntax parser. The syntax parsers automatically inserts a semicolon when it sees return statement and nothing else on the same line. That can be a problem, like in the example below, when accidentally starting a new line, yet still part of the return statement's purview, as it may return undefined.
 
 function getPerson(){
